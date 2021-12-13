@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import Transition from './Transition'
+// import SwitchTransition from './SwitchTransition'
+// import TransitionGroup from './TransitionGroup'
+// import Keyframs from './Keyframs'
+// import Cssdemo from './Cssdemo'
+// import ForWardRef from './ForWradRef'
 
+// import Swiper from "./Swiper"
+
+import State from './useState'
+// import CreateProtal from './CreateProtal'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* 动画 */}
+      {/* <Keyframs></Keyframs> */}
+      {/* 过度库 */}
+      {/* <Transition></Transition> */}
+      {/* <SwitchTransition /> */}
+      {/* <TransitionGroup /> */}
+      {/* css变量使用 */}
+      {/* <Cssdemo></Cssdemo> */}
+      {/* 组合模式 */}
+      {/* <ForWardRef /> */}
+      {/* CreatePortal */}
+      {/* <CreateProtal /> */}
+      {/* <Swiper/> */}
+      <State />
+    </>
+  )
 }
 
-export default App;
+export default App
