@@ -1,5 +1,4 @@
-import React from 'react'
+import SwichTransition from './SwitchTransition'
+import Transition from './Transition'
 
-export default function TransitionGroupp() {
-  return <div>askjdkjk</div>
-}
+export { SwichTransition, Transition }

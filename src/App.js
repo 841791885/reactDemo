@@ -1,31 +1,28 @@
-// import Transition from './Transition'
-// import SwitchTransition from './SwitchTransition'
-// import TransitionGroup from './TransitionGroup'
-// import Keyframs from './Keyframs'
-// import Cssdemo from './Cssdemo'
-// import ForWardRef from './ForWradRef'
-
+// import { Transition, SwitchTransition } from './TransitionGroup'
+// import { KeyFramesDemo, CssDemo, GlobalStyle } from './Stylecompontents'
+// import { UseStateDemo, ForWradRefDemo, CreateProtalDemo } from './Reactapi'
 // import Swiper from "./Swiper"
-
-import State from './useState'
-// import CreateProtal from './CreateProtal'
 function App() {
   return (
     <>
-      {/* 动画 */}
-      {/* <Keyframs></Keyframs> */}
-      {/* 过度库 */}
+      {/* react-transitiongroup过度库 */}
       {/* <Transition></Transition> */}
       {/* <SwitchTransition /> */}
-      {/* <TransitionGroup /> */}
+
+      {/* stylecomponent样式 */}
+      {/* 动画 */}
+      {/* <Keyframs></Keyframs> */}
       {/* css变量使用 */}
       {/* <Cssdemo></Cssdemo> */}
-      {/* 组合模式 */}
-      {/* <ForWardRef /> */}
-      {/* CreatePortal */}
-      {/* <CreateProtal /> */}
+      {/* 全局样式变量 */}
+      {/* <GlobalStyle /> */}
+
+      {/* ReactApi */}
+      {/* <ForWradRefDemo /> */}
+      {/* <UseStateDemo /> */}
+      {/* <CreateProtalDemo /> */}
+
       {/* <Swiper/> */}
-      <State />
     </>
   )
 }
