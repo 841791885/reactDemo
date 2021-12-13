@@ -1,7 +1,8 @@
 // import { Transition, SwitchTransition } from './TransitionGroup'
 // import { KeyFramesDemo, CssDemo, GlobalStyle } from './Stylecompontents'
 // import { UseStateDemo, ForWradRefDemo, CreateProtalDemo } from './Reactapi'
-// import Swiper from "./Swiper"
+import Swiper from './Swiper'
+// import BetterScrollDemo from './BetterScrollDemo'
 function App() {
   return (
     <>
@@ -22,7 +23,8 @@ function App() {
       {/* <UseStateDemo /> */}
       {/* <CreateProtalDemo /> */}
 
-      {/* <Swiper/> */}
+      {/* <BetterScrollDemo></BetterScrollDemo> */}
+      <Swiper />
     </>
   )
 }
