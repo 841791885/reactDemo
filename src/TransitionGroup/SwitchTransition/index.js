@@ -9,10 +9,15 @@ export default function SawitchTransition() {
       <Globalcss />
       <SwitchTransition mode="out-in">
         <CSSTransition classNames="btn" timeout={500} key={isOn ? 'on' : 'off'}>
-          {isOn ? <div>1231</div> : <div>45</div>}
+          {isOn ? (
+            <div className="red">1231</div>
+          ) : (
+            <div className="pink">45</div>
+          )}
         </CSSTransition>
       </SwitchTransition>
       <button
+        className="button"
         onClick={() => {
           setIsOn(!isOn)
         }}

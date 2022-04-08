@@ -1,26 +1,28 @@
-// import { Transition, SwichTransition } from './TransitionGroup'
-// import { KeyFramesDemo, CssDemo, GlobalStyle } from './Stylecompontents'
-// import {
-//   UseStateDemo,
-//   ForWradRefDemo,
-//   CreateProtalDemo,
-//   CreateContextAPiClass,
-//   HandleImprataive,
-// } from './Reactapi'
-// import Swipercpn from './Swipercpn'
-// import BetterScrollDemo from './BetterScrollDemo'
+import { Transition, SwichTransition } from './TransitionGroup'
+import { KeyFramesDemo, CssDemo, GlobalStyle } from './Stylecompontents'
+import {
+  UseStateDemo,
+  ForWradRefDemo,
+  CreateProtalDemo,
+  CreateContextAPiClass,
+  HandleImprataive,
+} from './Reactapi'
+import Swipercpn from './Swipercpn'
+import BetterScrollDemo from './BetterScrollDemo'
 
-// import { AntdMenus } from './antdDemo'
+import { AntdMenus } from './antdDemo'
 
-// import { UseLatesetDemo } from './AHookDemo'
+import { UseLatesetDemo } from './AHookDemo'
 
-// import Demo111 from './Demo111'
+import Demo111 from './Demo111'
 
-// import Fuzuoyong from './Fuzuouyong'
+import Fuzuoyong from './Fuzuouyong'
 
 import { DebounceLoadsh } from './Loadash'
 
-// import TempDemo from './TempDemo'
+import TempDemo from './TempDemo'
+
+import EchartsDemo from './EchartsDemo'
 
 function App() {
   return (
@@ -50,8 +52,9 @@ function App() {
       {/* <UseLatesetDemo /> */}
       {/* <Demo111 /> */}
       {/* <AntdMenus /> */}
+      {/* <DebounceLoadsh /> */}
       {/* <TempDemo /> */}
-      <DebounceLoadsh />
+      {/* <EchartsDemo /> */}
     </>
   )
 }

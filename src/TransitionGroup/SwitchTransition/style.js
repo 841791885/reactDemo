@@ -1,6 +1,22 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-export const SwitchTransitionWrapper = styled.div``
+export const SwitchTransitionWrapper = styled.div`
+  width: 100vw;
+  .red {
+    width: 100vw;
+
+    background: red;
+    width: 100vw;
+  }
+  .pink {
+    width: 100vw;
+
+    background: pink;
+  }
+  .button {
+    margin-top: 30px;
+  }
+`
 
 export const Globalcss = createGlobalStyle`
 .btn-enter {
