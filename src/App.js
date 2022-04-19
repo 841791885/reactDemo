@@ -65,7 +65,7 @@ function App() {
       {/* <DebounceLoadsh /> */}
       {/* <EchartsDemo /> */}
       {/* <CanvasImg /> */}
-      {/* <TempDemo /> */}a
+      <TempDemo />
     </>
   )
 }
