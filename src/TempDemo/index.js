@@ -1,10 +1,13 @@
+import { use } from 'echarts'
 import React from 'react'
+import Acpn from './acpn'
+import Bcpn from './bcpn'
 import { TempDemoWrapper } from './style'
-
-export default function Tempdemo() {
+export default function TempDemo() {
   return (
     <TempDemoWrapper>
-      <div className="block">123</div>
+      <Acpn />
+      <Bcpn />
     </TempDemoWrapper>
   )
 }

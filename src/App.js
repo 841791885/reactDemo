@@ -1,11 +1,17 @@
 import { Transition, SwichTransition } from './TransitionGroup'
-import { KeyFramesDemo, CssDemo, GlobalStyle } from './Stylecompontents'
+import {
+  KeyFramesDemo,
+  CssDemo,
+  GlobalStyle,
+  StyleButton,
+} from './Stylecompontents'
 import {
   UseStateDemo,
   ForWradRefDemo,
   CreateProtalDemo,
   CreateContextAPiClass,
   HandleImprataive,
+  LifeCircle,
 } from './Reactapi'
 import Swipercpn from './Swipercpn'
 import BetterScrollDemo from './BetterScrollDemo'
@@ -20,9 +26,11 @@ import Fuzuoyong from './Fuzuouyong'
 
 import { DebounceLoadsh } from './Loadash'
 
-import TempDemo from './TempDemo'
-
 import EchartsDemo from './EchartsDemo'
+
+import CanvasImg from './canvas画上传的图'
+
+import TempDemo from './TempDemo'
 
 function App() {
   return (
@@ -37,12 +45,14 @@ function App() {
       {/* <Cssdemo></Cssdemo> */}
       {/* 全局样式变量 */}
       {/* <GlobalStyle /> */}
+      {/* <StyleButton /> */}
       {/* ReactApi */}
       {/* <ForWradRefDemo /> */}
       {/* <UseStateDemo /> */}
       {/* <CreateContextAPiClass /> */}
       {/* <HandleImprataive /> */}
       {/* <CreateProtalDemo /> */}
+      {/* <LifeCircle /> */}
       {/* <BetterScrollDemo></BetterScrollDemo> */}
       {/* <Swipercpn /> */}
       {/* <Fuzuoyong /> */}
@@ -53,8 +63,9 @@ function App() {
       {/* <Demo111 /> */}
       {/* <AntdMenus /> */}
       {/* <DebounceLoadsh /> */}
-      {/* <TempDemo /> */}
       {/* <EchartsDemo /> */}
+      {/* <CanvasImg /> */}
+      {/* <TempDemo /> */}a
     </>
   )
 }
