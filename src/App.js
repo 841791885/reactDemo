@@ -30,6 +30,8 @@ import EchartsDemo from './EchartsDemo'
 
 import CanvasImg from './canvas画上传的图'
 
+import Immutable from './Immutable'
+
 import TempDemo from './TempDemo'
 
 function App() {
@@ -65,6 +67,7 @@ function App() {
       {/* <DebounceLoadsh /> */}
       {/* <EchartsDemo /> */}
       {/* <CanvasImg /> */}
+      {/* <Immutable /> */}
       <TempDemo />
     </>
   )

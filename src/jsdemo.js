@@ -1,19 +1,6 @@
-function Foo() {
-  Foo.a = function () {
-    console.log(1)
-  }
-  this.a = function () {
-    console.log(2)
-  }
-}
+const url = new URL('https://www.baidu.com/users?pa=1&pb=2')
 
-Foo.prototype.a = function () {
-  console.log(3)
-}
-Foo.a = function () {
-  console.log(4)
-}
-Foo.a()
-let obj = new Foo()
-obj.a()
-Foo.a()
+console.log(url)
+
+const paramsObj = new URLSearchParams(url.search)
+console.log(paramsObj.get('pa'))
