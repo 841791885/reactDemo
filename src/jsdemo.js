@@ -8,3 +8,5 @@ function debounce(fn, delay) {
   }
   return _debounce
 }
+
+console.log('a')
