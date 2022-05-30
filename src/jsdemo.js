@@ -1,6 +1,10 @@
-const url = new URL('https://www.baidu.com/users?pa=1&pb=2')
-
-console.log(url)
-
-const paramsObj = new URLSearchParams(url.search)
-console.log(paramsObj.get('pa'))
+function debounce(fn, delay) {
+  let timer = null
+  function _debounce(...args) {
+    if (timer) clearTimeout(timer)
+    timer = setTimeout(() => {
+      fn.apply(this, args)
+    }, delay)
+  }
+  return _debounce
+}
