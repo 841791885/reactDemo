@@ -1,21 +1,30 @@
-import React, { useEffect } from 'react'
-
-export default function Tempdeo() {
-  const getvalue = () => {
-    const targetRef = document.querySelector('#formRef')
-    console.log(targetRef)
-  }
-  return (
-    <div>
-      <form id="formRef">
-        <input type="radio" name="aa" value="123" />
-        123
-        <br />
-        <input type="radio" name="aa" value="456" />
-        456
-      </form>
-      <input type="submit" />
-      <button onClick={getvalue}>获取值</button>
-    </div>
-  )
+import {createContext,useContext,useState} from 'react'
+const ValProvider = createContext()
+function Ancestors() {
+  const [state, setState] = useState(0)
+  
+  return <ValProvider.Provider value={{
+    val: state,
+    setVal: setState
+  } }>Ancestors<Main/></ValProvider.Provider>
 }
+
+function Main() {
+  return <div>
+    Main
+    <Child />
+  </div>
+}
+
+function Child() {
+  const {setVal} = useContext(ValProvider)
+  return <div>Child<button onClick={() => {
+    setVal(val => val + 1)
+  }}>+2</button><Son /></div>
+}
+function Son() {
+  const {val} = useContext(ValProvider)
+
+  return <div>son:{val}</div>
+}
+export default Ancestors

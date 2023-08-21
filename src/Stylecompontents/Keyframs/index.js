@@ -1,5 +1,5 @@
 import React from 'react'
-import {KeyframsWrapper} from './style'
+import { KeyframsWrapper } from './style'
 export default function Keyframs() {
   return <KeyframsWrapper>keyframs</KeyframsWrapper>
 }

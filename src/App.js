@@ -16,7 +16,7 @@ import {
 import Swipercpn from './Swipercpn'
 import BetterScrollDemo from './BetterScrollDemo'
 
-import { AntdMenus } from './antdDemo'
+import { AntdMenus, AntdButtons,AntdTree } from './antdDemo'
 
 import { UseLatesetDemo } from './AHookDemo'
 
@@ -31,8 +31,14 @@ import EchartsDemo from './EchartsDemo'
 import CanvasImg from './canvas画上传的图'
 
 import Immutable from './Immutable'
+import Behavior from './Behavior'
+import Verifycode from './Verifycode/Verifycode'
+
+import Drag from './Drag'
 
 import TempDemo from './TempDemo'
+
+
 
 function App() {
   return (
@@ -62,13 +68,18 @@ function App() {
       {/* <ForWradRefDemo /> */}
       {/* ahookDemo */}
       {/* <UseLatesetDemo /> */}
-      {/* <Demo111 /> */}
+      <Demo111 />
       {/* <AntdMenus /> */}
+      {/* <AntdButtons /> */}
+      {/* <AntdTree /> */}
       {/* <DebounceLoadsh /> */}
       {/* <EchartsDemo /> */}
       {/* <CanvasImg /> */}
       {/* <Immutable /> */}
-      <TempDemo />
+      {/* <Behavior /> */}
+      {/* <Verifycode /> */}
+      {/* <Drag /> */}
+      {/* <TempDemo/> */}
     </>
   )
 }
